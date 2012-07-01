@@ -4,6 +4,12 @@
 	<artifactId>parent</artifactId> 
 	<version>0.0.1-SNAPSHOT</version>
 
-	<packaging>pom</packaging> 
+	<packaging>pom</packaging>
+	
+	<properties>
+		<bc.jdk>jdk15</bc.jdk>
+		<bc.version>140</bc.version>
+		<bctsp.version>1.46</bctsp.version>
+	</properties>
  
   </project>

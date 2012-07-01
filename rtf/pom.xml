@@ -13,4 +13,11 @@
 	<artifactId>rtf</artifactId>
 	<packaging>jar</packaging> 
 	
+	<dependencies>
+		<dependency>
+			<groupId>org.anproca.iText-mpl-lgpl</groupId>
+			<artifactId>core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>

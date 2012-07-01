@@ -13,4 +13,22 @@
 	<artifactId>rups</artifactId>
 	<packaging>jar</packaging> 
 	
+	<dependencies>
+		<dependency>
+			<groupId>org.anproca.iText-mpl-lgpl</groupId>
+			<artifactId>core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.kenai.nbpwr</groupId>
+			<artifactId>com-sun-pdfview</artifactId>
+			<version>1.0.5-201003191900</version>
+		</dependency>
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+	</dependencies>
+	
 </project>

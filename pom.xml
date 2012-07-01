@@ -12,6 +12,9 @@
 	<packaging>pom</packaging>
 	
 	<modules>
+		<module>core</module>
+		<module>rtf</module>
+		<module>rups</module>
 		<module>toolbox</module>
 	</modules>
 	 

@@ -13,4 +13,21 @@
 	<artifactId>core</artifactId>
 	<packaging>jar</packaging> 
 	
+	<dependencies>
+		<dependency>
+			<groupId>bouncycastle</groupId>
+			<artifactId>bcmail-${bc.jdk}</artifactId>
+			<version>${bc.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>bouncycastle</groupId>
+			<artifactId>bcprov-${bc.jdk}</artifactId>
+			<version>${bc.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bctsp-${bc.jdk}</artifactId>
+			<version>${bctsp.version}</version>
+		</dependency>
+	</dependencies>
 </project>
